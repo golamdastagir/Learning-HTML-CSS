@@ -1,0 +1,43 @@
+body {font-family: Arial; background-image: linear-gradient(#FFFFFF, #90C7E3); color: #666666; }
+header { background-color: #000033;
+         background-image: url(sunset.jpg);
+         background-position: right;
+         background-repeat: no-repeat; 
+		 color:#FFFFFF;
+         height: 60px;
+         text-align: center;
+	 padding-top: 15px;}
+h1 {font-family: Times New Roman; margin-bottom: 0; margin-top: 0;}
+nav {background-color: #FFFFFF; color: #002171; font-weight: bold; text-align: center; padding: 1em; }
+nav a{text-decoration: none; }
+main { 	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px; 
+	display: block; }
+h2 {font-family: Times New Roman; color: #1976D2; text-shadow: 1px 1px #CCCCCC }
+h3 {font-family: Times New Roman; color: #000033; }
+dt{color: #002171;}
+ul { list-style-image: url('marker.gif'); }
+footer { font-size:75%; font-family: Times New Roman; font-style: italic; text-align: center; padding: 2em; }
+.companyname { color:#1976D2; }
+#homehero { 	height: 300px;
+		background-image: url(coast.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat; }
+#yurthero { 	height: 300px;
+		background-image: url(yurt.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat; }
+#trailhero { 	height: 300px;
+		background-image: url(trail.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;  }
+
+
+#wrapper {background-color: #FFFFFF;
+	  margin-left: 10%; margin-right: 10%;
+	  box-shadow: 3px 3px #333333 ;}
+	  width: 80%;
+	  min-width: 960px;
+	  max-width: 2048px; }

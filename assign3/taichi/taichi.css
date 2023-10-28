@@ -1,0 +1,17 @@
+header { background-color: #FFFF7A; color:#FFFFFF; }
+header a{text-decoration: none; }
+nav {background-color: #BBDEFB; color: #92D8FF; font-weight: bold; }
+nav a{text-decoration: none; }
+main { font-family: Times New Roman; font-size: 15px; background-image: url(background.jpg);
+       background-repeat: no-repeat; background-size: 100%; background-attachment: fixed; }
+h1 {font-family: Times New Roman; font-size: 50px; color: #E6E7E8; }
+h2 {font-family: Times New Roman; color: #01508F; }
+h3 {font-family: Times New Roman; color: #E6E7E7; }
+p { font-family: Times New Roman; color: #E6E7E8; }
+dd { font-family: Times New Roman; color: #E6E7E8; }
+footer { font-size:75%; font-family: Times New Roman; font-style: italic; text-align: center; color: #000000; }
+.center {display: block; margin-left: auto; margin-right: auto; }
+.blocktext { margin-left: auto; margin-right: auto; width: 10em; }
+#nospace { margin-bottom: 0; }
+#ques { font-family: Times New Roman; font-weight: bold; font-size:22px;  color: #01508F; }
+

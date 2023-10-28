@@ -1,0 +1,19 @@
+body {font-family: Arial; background-color: #ffffff; color: #666666; }
+header { background-color: #000033;
+         background-image: url(sunset.jpg);
+         background-position: right;
+         background-repeat: no-repeat; 
+		 color:#FFFFFF;
+         line-height: 400%;
+         text-indent: 1em; }
+h1 {font-family: Times New Roman; margin-bottom: 0;}
+nav {background-color: #BBDEFB; color: #002171; font-weight: bold; }
+nav a{text-decoration: none; }
+h2 {font-family: Times New Roman; color: #1976D2; }
+h3 {font-family: Times New Roman; color: #000033; }
+dt{color: #002171;}
+ul { list-style-image: url('marker.gif'); }
+footer { font-size:75%; font-family: Times New Roman; font-style: italic; text-align: center; }
+.companyname { color:#1976D2; }
+
+

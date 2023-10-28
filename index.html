@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>All the work</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial scale= 1.0" />
+    <script>
+      function digi() {
+        var date = new Date(),
+          hour = date.getHours(),
+          minute = checkTime(date.getMinutes()),
+          ss = checkTime(date.getSeconds());
+
+        function checkTime(i) {
+          if (i < 10) {
+            i = "0" + i;
+          }
+          return i;
+        }
+
+        if (hour > 12) {
+          hour = hour - 12;
+          if (hour == 12) {
+            hour = checkTime(hour);
+            document.getElementById("tt").innerHTML =
+              hour + ":" + minute + ":" + ss + " AM";
+          } else {
+            hour = checkTime(hour);
+            document.getElementById("tt").innerHTML =
+              hour + ":" + minute + ":" + ss + " PM";
+          }
+        } else {
+          document.getElementById("tt").innerHTML =
+            hour + ":" + minute + ":" + ss + " AM";
+        }
+        var time = setTimeout(digi, 1000);
+      }
+    </script>
+  </head>
+
+  <body onload="digi()" id="gradient">
+    <div id="wrapper">
+      <header id="head">
+        <a href="assign212.html">
+          <h1>So far what I've done</h1>
+        </a>
+        <p id="tt"></p>
+      </header>
+      <main id="gradient">
+        <section id="sec">
+          <div id="font">ALL ASSIGNMENTS</div>
+          <div id="border">
+            <h2>Assignment 1</h2>
+            <h3>Chapter 2</h3>
+
+            <h4>Case Study</h4>
+            <ul>
+              <li>
+                <a href="assign1/pacific/home.html"
+                  >Pacific Trails Resort Chapter 2</a
+                >
+                - with working link to Yurts page
+              </li>
+            </ul>
+          </div>
+          <div id="border">
+            <h2>Assignment 2</h2>
+            <h3>Chapter 3</h3>
+            <ul>
+              <li><a href="assign2/part1.docx"> Part 1 & 2 </a></li>
+            </ul>
+          </div>
+          <div id="border">
+            <h2>Assignment 3</h2>
+            <h3>Chapter 4</h3>
+            <ul>
+              <li>
+                <a href="assign3/ch4pacific/index.html">
+                  Pacific Trails Resort
+                </a>
+              </li>
+            </ul>
+            <h3>Chapter 5</h3>
+            <ul>
+              <li>
+                <a href="assign3/ch5pacific/index.html">
+                  Pacific Trails Resort
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="border">
+            <h2>Assignment 4</h2>
+            <h3>Chapter 6 & 7</h3>
+            <ul>
+              <li>
+                <a href="assign4/taichi/home.html"> Tai Chi Solutions </a>
+              </li>
+            </ul>
+          </div>
+          <div id="border">
+            <h2>Assignment 5</h2>
+            <h3>Final Project</h3>
+            <ul>
+              <li>
+                <a href="assign5/finalproject/index.html"> Final Project </a>
+              </li>
+            </ul>
+          </div>
+          <div id="border">
+            <h2>Final Assignment</h2>
+            <h3>Final Project</h3>
+            <ul>
+              <li>
+                <a href="assign5/finalprojectdone/index.html">
+                  Final Project(Complete)</a
+                >
+                - With all working pages
+              </li>
+            </ul>
+            <p>
+              <b>New Skill:</b> Used JavaScript on <u>Review page</u> to show
+              "Thank you for reviewing" after submitting.
+            </p>
+            <p>
+              <b>Use of media interactivity:</b> Slideshow of different pictures
+              on <u>Homepage</u>.
+            </p>
+          </div>
+        </section>
+
+        <section id="sec">
+          <div id="font">ALL HOMEWORKS</div>
+          <div id="border">
+            <h2>Homework 1</h2>
+            <ul>
+              <li><a href="assign1/2.7.html"> Hands on Practice 2.7 </a></li>
+              <li><a href="assign1/2.9.html"> Hands on Practice 2.9 </a></li>
+              <li>
+                <a href="assign1/mypractice/2.11.html">
+                  Hands on Practice 2.11-2.14</a
+                >
+                - with working links to services and contact
+              </li>
+            </ul>
+          </div>
+
+          <div id="border">
+            <h2>Homework 3</h2>
+            <p>
+              Extra style in my external css of my choice: Centered all h2 tag
+              texts.
+            </p>
+            <p>Textbook cover with link is given below:</p>
+            <a href="http://webdevbasics.net/4e/">
+              <div id="bookimage"></div>
+            </a>
+            <ul>
+              <li>
+                <a href="assign3/taichi/home.html"> Tai Chi Solutions </a>
+              </li>
+            </ul>
+          </div>
+          <div id="border">
+            <h2>Homework 4</h2>
+            <h3>Chapter 6</h3>
+            <ul>
+              <li>
+                <a href="assign4/ch6pacific/index.html">
+                  Pacific Trails Resort
+                </a>
+              </li>
+            </ul>
+            <h3>Chapter 7</h3>
+            <ul>
+              <li>
+                <a href="assign4/ch7pacific/index.html">
+                  Pacific Trails Resort
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="border">
+            <h2>Homework 5</h2>
+            <h3>Chapter 8</h3>
+            <ul>
+              <li>
+                <a href="assign5/ch8pacific/index.html">
+                  Pacific Trails Resort
+                </a>
+              </li>
+            </ul>
+            <h3>Chapter 9</h3>
+            <ul>
+              <li>
+                <a href="assign5/ch9pacific/index.html">
+                  Pacific Trails Resort
+                </a>
+              </li>
+            </ul>
+
+            <h3>Chapter 10</h3>
+            <ul>
+              <li>
+                <a href="assign5/ch10pacific/index.html">
+                  Pacific Trails Resort
+                </a>
+              </li>
+            </ul>
+
+            <h3>Chapter 11</h3>
+            <ul>
+              <li>
+                <a href="assign5/ch11pacific/index.html">
+                  Pacific Trails Resort
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <h1>GRID GALLERY</h1>
+        <div class="row" id="whitebody">
+          <div class="column">
+            <img src="gridgallery/cat.jpg" />
+            <img src="gridgallery/dog.jpg" />
+            <img src="gridgallery/drum.jpg" />
+          </div>
+          <div class="column">
+            <img src="gridgallery/elephant.jpg" />
+            <img src="gridgallery/kangaroo.jpg" />
+            <img src="gridgallery/karate.jpg" />
+          </div>
+          <div class="column">
+            <img src="gridgallery/lame.jpg" />
+            <img src="gridgallery/mountain.jpg" />
+            <img src="gridgallery/sing.jpg" />
+          </div>
+          <div class="column">
+            <img src="gridgallery/drum.jpg" />
+            <img src="gridgallery/karate.jpg" />
+            <img src="gridgallery/elephant.jpg" />
+          </div>
+        </div>
+      </main>
+
+      <footer id="gradient">
+        Copyright &copy; 2019 Golam Dastagir <br />
+        <a href="mailto:golamdastagirbarish.com">golamdastagirbarish.com</a>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,306 @@
+* {
+	box-sizing: border-box;
+}
+
+form {
+	display: flex;
+	flex-flow: column nowrap; }
+	input, textarea { margin-bottom: 0.5em;}
+
+@supports (display: grid ) {}	
+
+@media (min-width: 600px) {
+	nav ul {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+	}
+
+
+	
+
+	nav ul li {
+		border-bottom: none;
+	}
+
+	form {display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 6em 1fr;
+		grid-gap: 1em; gap: 1em;
+	 width: 60%;}
+
+		input[type="submit"] { grid-column: 2/3;
+			width: 9em; margin-left: 0; }
+
+	section {
+		float: right;
+		width: 33%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	main {
+		background-color: #FFFFFF;
+		padding-top: 1px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 30px;
+		display: block;
+		overflow: auto;
+	}
+
+	#homehero {
+		height: 300px;
+		background-image: url(coast2.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+
+	}
+
+	#yurthero {
+		height: 300px;
+		background-image: url(yurt.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+
+	}
+
+	#trailhero {
+		height: 300px;
+		background-image: url(trail.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	nav ul {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		padding-top: 1em;
+		border-bottom: none;
+	}
+	#nobotbord { 
+		border-bottom: none;
+		text-align: left;
+		padding-left: 1em;
+		}
+
+	body {
+		background-color: #000066;
+	}
+
+	section {
+		float: right;
+		width: 33%;
+		padding-left: 2em;
+		padding-right: 2em;
+		padding-bottom: 3%;
+	}
+
+	#wrapper {
+		background-color: #90C7E3;
+		background-image: linear-gradient(#FFFFFF, #90C7E3);
+		margin: auto;
+		width: 80%;
+		box-sizing: border-box;
+		border: 3px solid #000033;
+		box-shadow: 1px 1px #000033;
+		display: grid;
+		grid-template-columns: 180px auto;
+		grid-template-rows: auto auto auto auto;
+	}
+
+	header {
+		grid-row: 1/2;
+		grid-column: 1/3;
+	}
+
+	nav {
+		grid-row: 2/6;
+		grid-column: 1/2;
+	}
+
+	main {
+		grid-row: 3/4;
+		grid-column: 2/3;
+	}
+
+	table {
+		grid-row: 4/5;
+		grid-column: 2/3;
+	}
+
+	footer {
+		grid-row: 5/6;
+		grid-column: 2/3;
+	}
+}
+
+
+
+body {
+	font-family: Arial;
+	color: #666666;
+}
+
+header {
+	background-color: #000033;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Times New Roman';
+	letter-spacing: 0.25em;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+nav {
+	color: #002171;
+	font-weight: bold;
+	padding: 0;
+	font-size: 120%;
+	text-align: center;
+	border-bottom: 2px solid;
+border-bottom-color: darkblue;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:link {
+	color: #5C7FA3;
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a:hover {
+	color: #A52A2A;
+}
+
+main {
+	background-color: #FFFFFF;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: block;
+	overflow: auto;
+}
+
+
+
+h2 {
+	font-family: Times New Roman;
+	color: #1976D2;
+	text-shadow: 1px 1px #CCCCCC
+}
+
+h3 {
+	font-family: Times New Roman;
+	color: #000033;
+}
+
+main ul {
+	list-style-image: url('marker.gif');
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+
+nav li {
+	border-bottom: 1px solid blue;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 3px solid #3399CC;
+	;
+}
+
+tr:nth-of-type(odd) {
+	background: #F5FAFC;
+}
+
+th {
+	padding: 0.5em;
+	border: 2px solid #3399CC;
+
+}
+
+td {
+	text-align: center;
+	padding: 0.5em;
+	border: 2px solid #3399CC;
+}
+
+footer {
+	background-color: #FFFFFF;
+	font-size: 75%;
+	font-family: 'Times New Roman';
+	font-style: italic;
+	text-align: center;
+	padding: 2em;
+}
+
+.companyname {
+	color: #1976D2;
+	font-weight: bold; 
+}
+
+#homehero {
+	height: 300px;
+	background-image: url(coast2.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+#yurthero {
+	height: 300px;
+	background-image: url(yurt.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+#trailhero {
+	height: 300px;
+	background-image: url(trail.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+
+#wrapper {
+	background-color: #90C7E3;
+	background-image: linear-gradient(#FFFFFF, #90C7E3);
+}
+
+#text {
+	text-align: left;
+}
+
+#special {
+	background-color: white;
+	padding: 2em; }
+

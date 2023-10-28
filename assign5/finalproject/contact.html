@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Makeup Collection :: Contacts</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial scale= 1.0" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <a href="index.html">
+          <img src="logo.png" alt="logo" id="logo" />
+        </a>
+      </header>
+
+      <nav id="nav_media">
+        <ul>
+          <li><a href="#"> ABOUT </a></li>
+          <li>
+            <a href="#"> SHOP </a>
+            <ul>
+              <li><a href="#">Face</a></li>
+              <li><a href="lip.html">Lips</a></li>
+              <li><a href="#">Eyes</a></li>
+            </ul>
+          </li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#"> REVIEWS </a></li>
+          <li><a href="contact.html"> CONTACTS </a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h1 style="text-align: center">Contact Me</h1>
+
+        <form method="POST" action="#">
+          <div class="container">
+            <div id="row">
+              <div class="col25">
+                <label for="myFName">First Name:</label>
+              </div>
+
+              <div class="col75">
+                <input
+                  type="text"
+                  name="myFName"
+                  id="myFName"
+                  required="required"
+                  placeholder="Your First Name"
+                />
+              </div>
+            </div>
+            <div id="row">
+              <div class="col25">
+                <label for="myLName">Last Name:</label>
+              </div>
+              <div class="col75">
+                <input
+                  type="text"
+                  name="myLName"
+                  id="myLName"
+                  required="required"
+                  placeholder="Your Last Name"
+                />
+              </div>
+            </div>
+            <div id="row">
+              <div class="col25">
+                <label for="myEmail">Email:</label>
+              </div>
+              <div class="col75">
+                <input
+                  type="email"
+                  name="myEmail"
+                  id="myEmail"
+                  required="required"
+                  placeholder="yourname@domain.com"
+                />
+              </div>
+            </div>
+            <div id="row">
+              <div class="col25">
+                <label for="myComments">Comments:</label>
+              </div>
+              <div class="col75">
+                <textarea
+                  name="myComments"
+                  id="myComments"
+                  required
+                  rows="3"
+                  cols="40"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+          <input type="submit" value="Submit" />
+        </form>
+      </main>
+      <footer>
+        <div class="footertop">
+          <h3 style="color: #797979; padding-left: 2em" id="pad">My Site</h3>
+          <ul>
+            <li><a href="index.html"> Home </a></li>
+            <br />
+            <li><a href="#"> About </a></li>
+            <br />
+            <li><a href="#"> FAQ </a></li>
+            <br />
+            <li><a href="#"> Reviews </a></li>
+            <br />
+            <li><a href="contact.html"> Contacts </a></li>
+            <br />
+          </ul>
+
+          <div id="column2">
+            <a href="https://www.facebook.com/golamdastagirbarish/"
+              ><img src="facebook.png" alt="facebook" id="contact"
+            /></a>
+          </div>
+          <div id="column2">
+            <a href="https://www.instagram.com/golamdastagirbarish/"
+              ><img src="instagram.png" alt="instagram" id="contact"
+            /></a>
+          </div>
+          <div id="column2">
+            <a href="mailto:golamdastagirbarish@gmail.com"
+              ><img src="mail.png" alt="mail" id="contact"
+            /></a>
+          </div>
+        </div>
+
+        <div id="footer">
+          Copyright &copy; 2019 | All Rights Reserved by Makeup Collection
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
